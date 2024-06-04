@@ -1,0 +1,34 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1717119815405,
+      "tag": "0000_safe_whistler",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1717129434942,
+      "tag": "0001_fixed_ogun",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1717220153100,
+      "tag": "0002_fuzzy_toxin",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1717233547268,
+      "tag": "0003_windy_cerebro",
+      "breakpoints": true
+    }
+  ]
+}
