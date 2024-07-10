@@ -1,16 +1,12 @@
 import Link from "next/link";
-import Image from "next/image";
+import { BsGraphUpArrow } from "react-icons/bs";
 
 const HeaderLogo = () => {
   return (
     <Link href="/">
       <div className="items-center hidden lg:flex">
-        <Image
-          src="/logo.svg"
-          alt="Logo"
-          height={28}
-          width={28}
-        />
+        <BsGraphUpArrow className="text-white size-5" />
+
         <p className="font-semibold text-white text-2xl ml-2.5">
           Finance
         </p>

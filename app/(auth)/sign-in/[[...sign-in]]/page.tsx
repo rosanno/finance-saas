@@ -1,10 +1,10 @@
 import { Loader2 } from "lucide-react";
+import { BsGraphUpArrow } from "react-icons/bs";
 import {
   SignIn,
   ClerkLoaded,
   ClerkLoading,
 } from "@clerk/nextjs";
-import Image from "next/image";
 
 export default function Page() {
   return (
@@ -28,13 +28,8 @@ export default function Page() {
           </ClerkLoading>
         </div>
       </div>
-      <div className="h-full bg-[#181E25] hidden lg:flex items-center justify-center">
-        <Image
-          src="/logo.svg"
-          height={100}
-          width={100}
-          alt="Logo"
-        />
+      <div className="h-full bg-[#131519] hidden lg:flex items-center justify-center">
+        <BsGraphUpArrow className="text-white size-16" />
       </div>
     </div>
   );
